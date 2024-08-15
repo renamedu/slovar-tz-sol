@@ -26,10 +26,10 @@ if (php_sapi_name() === 'cli') {
         <html lang="ru">
         <head>
             <meta charset="UTF-8">
-            <title>Upload russian.txt</title>
+            <title>Фильтр словаря</title>
         </head>
         <body>
-            <h1>Upload russian.txt</h1>
+            <h1>Фильтр словаря</h1>
             <form action="" method="POST" enctype="multipart/form-data">
                 <input type="file" name="file" accept=".txt" required>
                 <button type="submit">Upload</button>
